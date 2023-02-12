@@ -1,6 +1,11 @@
 
 export const AddCategory = () => {
   return (
-    <div>AddCategory</div>
+    <>
+    <h1>Gifs</h1>
+    <input type="text" 
+    placeholder="Tipyng you gifs"
+    />
+    </>
   )
 }

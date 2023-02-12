@@ -1,11 +1,25 @@
-:root {
+* {
 
-    font-family: Helvetica, Arial, sans-serif;
-    background: #00B4DB;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0083B0);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0083B0);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(74, 17, 33);
+    font-size: 20px
+}
 
+body {
+    background-color: rgb(31, 201, 223);
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-family: monospace;
+    padding: 25px;
+    margin: 25px;
+}
+
+input {
+    padding: 25px;
+    margin: 25px;
+    background-color: aliceblue;
+    width: 90%;
 }
