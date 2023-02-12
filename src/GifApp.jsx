@@ -4,10 +4,23 @@ import { AddCategory } from "./components/AddCategory";
 export const GifApp = () => {
   const [Categories, setCategories] = useState(["value"]);
 
+
   return (
     <>
-      <h1>GIFS</h1>
-      <AddCategory  />
+
+      <AddCategory />
+
+      {/* {
+        Categories.map((category) => (
+
+          <li key={category}> {category}</li>
+
+        ))
+      } */}
+
+
     </>
+
+
   );
 };
