@@ -1,10 +1,10 @@
 import { useState } from "react"
 
 export const AddCategory = () => {
-  const [Input, setInput] = useState('');//change state app
+  const [InputValue, SetInputValue] = useState('');//change state app
 
   const OnInputChange = ({ target }) => {
-
+    SetInputValue([...InputValue, target.value])
   }
   
   const onSubmit = (event) => {
@@ -17,6 +17,7 @@ export const AddCategory = () => {
       <input type="text"
         placeholder="Tipyng you gifs"
         onChange={(event) => OnInputChange(event)}
+        value={InputValue}
 
       />
     </form>
